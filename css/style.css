@@ -23,17 +23,17 @@ body {
     color: var(--text)
 }
 
-h2 {
+h2{
     color: var(--headings);
     font-family: var(--headings-font-family);
     font-size: 2.5rem;
 }
 
-p {
+p{
     line-height: 2;
 }
 
-hr {
+hr{
     border: dotted var(--text) 16px;
     border-bottom: none;
     margin: 5rem auto;
@@ -53,13 +53,39 @@ hr {
     margin: 0 auto;
 }
 
-.profile-img {
+.bemari-img {
     margin: 0 auto;
-    margin-left: -40%;
+    margin-left: -25%;
     height: 100%;
     width: auto;
 }
 
 h1 {
     font-family: var(--headings-font-family);
+}
+
+.skill-row {
+    text-align: left;
+    margin: 2rem auto;
+    width: 50%;
+    overflow: hidden;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 5rem;
+    border-radius: 15%;
+}
+
+.Hobby-img{
+    width: 25%;
+    float: right;
+    border-radius: 15%;
+}
+.h2h2{
+    text-align: right;
+    margin: 5rem;
+    width: 50%;
+    overflow: hidden;
 }
