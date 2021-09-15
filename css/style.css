@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Slabo+27px&display=swap');
 :root {
-    --headings: #3500D3;
-    --text: #240090;
+    --headings: black;
+    --text: white;
     --background: #625555;
     --headings-font-family: 'Merriweather Sans', sans-serif;
     --text-font-family: 'Slabo 27px', serif;
@@ -80,12 +80,48 @@ h1 {
 
 .Hobby-img{
     width: 25%;
-    float: right;
+    float: left;
+    margin-right: 5rem;
     border-radius: 15%;
 }
-.h2h2{
-    text-align: right;
-    margin: 5rem;
-    width: 50%;
-    overflow: hidden;
+
+.btn{
+    width: 16rem;
+    display: block;
+    font: bold 11px Arial;
+    text-decoration: none;
+    font-size-adjust: 1;
+    background-color:  #625555;
+    color: black;
+    margin: 0rem auto;
+    padding: 2px 6px 2px 6px;
+    border-top: var(--headings);
+    padding: 1rem;
+}
+
+.bottom-link{
+display: inline-block;
+justify-content: center ;
+align-items: center;
+}
+
+.li-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.li-wrapper {
+    margin-right: 1rem;
+
+}
+
+.li-wrapper a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.copyright {
+    
 }
